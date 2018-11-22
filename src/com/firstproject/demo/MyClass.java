@@ -3,7 +3,7 @@ package com.firstproject.demo;
 
 import java.util.Random;
 import java.util.Scanner;
-import demo.Numbers;
+import demo.*;
 
 public final class MyClass {
 
@@ -13,6 +13,8 @@ public final class MyClass {
 //		System.out.println(Numbers.getPower(2, 10));
 //		BigInteger
 //		Numbers.bigIntegerDemo();
+		General.getTwoLargestFromArray();
+		
 	}
 
 }
