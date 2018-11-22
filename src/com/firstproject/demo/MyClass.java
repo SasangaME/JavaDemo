@@ -14,7 +14,9 @@ public final class MyClass {
 //		BigInteger
 //		Numbers.bigIntegerDemo();
 		//General.getTwoLargestFromArray();
-		StringDemo.stringFirst();
+		StringDemo.stringOperations();
+		
+		
 		
 	}
 
