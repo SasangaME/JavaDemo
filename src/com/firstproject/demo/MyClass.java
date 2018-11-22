@@ -13,7 +13,8 @@ public final class MyClass {
 //		System.out.println(Numbers.getPower(2, 10));
 //		BigInteger
 //		Numbers.bigIntegerDemo();
-		General.getTwoLargestFromArray();
+		//General.getTwoLargestFromArray();
+		StringDemo.stringFirst();
 		
 	}
 
