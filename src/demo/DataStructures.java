@@ -6,7 +6,7 @@ public class DataStructures {
 	
 	public static void arrayListDemo()
 	{
-		ArrayList lst = new ArrayList();
+		ArrayList<Object> lst = new ArrayList<Object>();
 		lst.add(245);
 		lst.add("fucker");
 		lst.add(true);
@@ -16,6 +16,12 @@ public class DataStructures {
 		{
 			System.out.println(item);
 		}
+		
+		lst.remove("fucker");
+		lst.remove(true);
+		
+		lst.get(1); // get element of index 1
+		lst.set(1, "Hello"); //replaces element with another
 		
 	}
 	
@@ -33,6 +39,22 @@ public class DataStructures {
 			System.out.println(ch);
 		}
 		
+		Collections.sort(lst);
+		
+	}
+	
+	public static void multiArray()
+	{
+		int[][] arr = {{1,2,3}, {2,3,4}, {3, 4, 5}};
+		
+		for(int[] i: arr)
+		{
+			for(int j: i)
+			{
+				System.out.print(" " + j);
+			}
+			System.out.println();
+		}
 	}
 
 }
