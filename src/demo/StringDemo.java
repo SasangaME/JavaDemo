@@ -49,6 +49,11 @@ public class StringDemo {
 		boolean isStart = str.startsWith("s");
 		boolean isEnd = str.endsWith("g");
 		boolean isContain = str.contains("t");
+		int ind = str.indexOf("S");
+		int last = str.lastIndexOf("s");
+		String name = "Sasanga Madhumal";
+		name.replace("Madhumal", "Edirisinghe");
+		char ch = str.charAt(2);
 	}
 	
 	

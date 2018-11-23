@@ -23,5 +23,12 @@ public class Numbers {
 		BigInteger p = n.add(m);
 		System.out.println(p);
 	}
+	
+	public static void formattingDemo()
+	{
+		double d = 245.34563636;
+		String str = String.format("%.2f", d);
+		System.out.println(str);
+	}
 
 }

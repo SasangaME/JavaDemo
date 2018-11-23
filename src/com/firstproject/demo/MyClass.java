@@ -1,8 +1,5 @@
 package com.firstproject.demo;
 
-
-import java.util.Random;
-import java.util.Scanner;
 import demo.*;
 
 public final class MyClass {
@@ -12,9 +9,10 @@ public final class MyClass {
 		// Numbers demo
 //		System.out.println(Numbers.getPower(2, 10));
 //		BigInteger
-//		Numbers.bigIntegerDemo();
-		//General.getTwoLargestFromArray();
-		StringDemo.stringOperations();
+//		Numbers.formattingDemo();
+//		General.getTwoLargestFromArray();
+//		StringDemo.stringOperations();
+		DataStructures.listDemo();
 		
 		
 		
