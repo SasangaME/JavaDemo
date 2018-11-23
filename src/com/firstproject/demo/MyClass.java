@@ -12,7 +12,7 @@ public final class MyClass {
 //		Numbers.formattingDemo();
 //		General.getTwoLargestFromArray();
 //		StringDemo.stringOperations();
-		DataStructures.multiArray();
+		DataStructures.variableArguments();
 		
 		
 	}

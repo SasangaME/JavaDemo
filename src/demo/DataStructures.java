@@ -56,5 +56,20 @@ public class DataStructures {
 			System.out.println();
 		}
 	}
+	
+	public static void variableArguments()
+	{
+		System.out.println(getAverage(1, 2, 3));
+	}
+	
+	public static double getAverage(double... values)
+	{
+		int sum = 0;
+		for(double d : values)
+		{
+			sum += d;
+		}
+		return sum / values.length;
+	}
 
 }
