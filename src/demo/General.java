@@ -1,5 +1,7 @@
 package demo;
 
+import java.time.LocalDate;
+
 public class General {
 	
 	public static void getTwoLargestFromArray()
@@ -34,6 +36,16 @@ public class General {
 		{
 			System.out.println(ex.getMessage());
 		}
+	}
+	
+	public static void dateDemo()
+	{
+		LocalDate date = LocalDate.of(1990, 04, 14);
+		LocalDate date2 = date.plusYears(28);
+		System.out.println(date2);
+		
+		LocalDate dt = LocalDate.now();
+		
 	}
 
 }

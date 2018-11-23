@@ -1,6 +1,7 @@
 package com.firstproject.demo;
 
 import demo.*;
+import objectOriented.EmployeDemo;
 
 public final class MyClass {
 
@@ -10,9 +11,10 @@ public final class MyClass {
 //		System.out.println(Numbers.getPower(2, 10));
 //		BigInteger
 //		Numbers.formattingDemo();
-//		General.getTwoLargestFromArray();
+//		General.dateDemo();
 //		StringDemo.stringOperations();
-		DataStructures.variableArguments();
+//		DataStructures.variableArguments();
+		EmployeDemo.demo();
 		
 		
 	}
