@@ -16,8 +16,7 @@ public final class MyClass {
 //		StringDemo.stringOperations();
 //		DataStructures.variableArguments();
 //		EmployeDemo.demo();
-		Basics.basicsDemo();
-		
+		Basics.breakDemo();
 		
 	}
 

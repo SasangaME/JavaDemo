@@ -43,7 +43,6 @@ public class Basics {
 				
 		
 //		while loop
-		
 		int count = 0;
 		int sum = 0;
 		while(count < 11)
@@ -52,8 +51,25 @@ public class Basics {
 			count++;
 		}
 		
-		System.out.println(sum);
 				
+	}
+	
+	public static void breakDemo()
+	{
+		outer: //outer loop label
+		for(int j = 0; j <= 10; j++)
+		{
+			for(int k = 0; k <= 10; k++)
+			{
+				double d = Math.random();
+				System.out.println(j + " - " + k + " : " + d);
+				if(d > 0.975)
+					break outer; // breaking the outer loop
+				else if(d > 0.95)
+					break;
+			}
+			System.out.println();
+		}
 	}
 
 }
