@@ -2,6 +2,7 @@ package com.firstproject.demo;
 
 import demo.*;
 import objectOriented.EmployeDemo;
+import tutorial.*;
 
 public final class MyClass {
 
@@ -14,7 +15,8 @@ public final class MyClass {
 //		General.dateDemo();
 //		StringDemo.stringOperations();
 //		DataStructures.variableArguments();
-		EmployeDemo.demo();
+//		EmployeDemo.demo();
+		Basics.basicsDemo();
 		
 		
 	}
