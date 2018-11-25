@@ -16,8 +16,8 @@ public final class MyClass {
 //		StringDemo.stringOperations();
 //		DataStructures.variableArguments();
 //		EmployeDemo.demo();
-		Basics.breakDemo();
-		
+//		Basics.primeNumbers();
+		DataStructuresDemo.arrayDemo();
 	}
 
 }
