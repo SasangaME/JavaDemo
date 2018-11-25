@@ -149,12 +149,12 @@ public class Basics {
 	public static void primeNumbers()
 	{
 		ArrayList<Integer> lst = new ArrayList<Integer>();
-		boolean isPrime = true;
+		
 		for(int i = 2; i <= 100; i++)
 		{
+			boolean isPrime = true;
 			for(int j = 2; j < i; j++)
 			{
-				isPrime = true;
 				if(i % j == 0)
 				{
 					isPrime = false;

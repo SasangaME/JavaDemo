@@ -17,7 +17,9 @@ public final class MyClass {
 //		DataStructures.variableArguments();
 //		EmployeDemo.demo();
 //		Basics.primeNumbers();
-		DataStructuresDemo.arrayDemo();
+//		DataStructuresDemo.threedarray();
+		OopDemo.refAndValObjDemo();
+		
 	}
 
 }
