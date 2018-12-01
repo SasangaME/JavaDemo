@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c576624a-c27b-48eb-a588-317277f04379" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bin/com/firstproject/demo/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/firstproject/demo/MyClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tutorial/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tutorial/Child.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tutorial/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tutorial/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tutorial/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tutorial/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tutorial/NextChild.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tutorial/NextChild.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tutorial/OopDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tutorial/OopDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tutorial/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tutorial/Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/firstproject/demo/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/firstproject/demo/MyClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tutorial/OopDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorial/OopDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tutorial/abstraction/AbstractDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/firstproject/demo/MyClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -30,7 +22,32 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tutorial/DemoOop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tutorial/abstraction/AbstractDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,7 +98,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543642558593" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543642657355" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.project" />
   </component>
   <component name="RunDashboard">
@@ -180,10 +197,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/tutorial/Basics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/firstproject/demo/MyClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tutorial/DemoOop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tutorial/abstraction/AbstractDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
