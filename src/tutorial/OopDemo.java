@@ -21,11 +21,7 @@ public class OopDemo {
 	
 	public static void refandvalue()
 	{
-		int i = 10;
-		int j = i;
-		i++;
-		System.out.println(j);
-		System.out.println(i);
+		 
 	}
 	
 	public static void refAndValObjDemo()
@@ -62,13 +58,22 @@ public class OopDemo {
 	{
 		System.out.println(str);
 	}
+	
+	public static void annonymouseDemo()
+	{
+		A objA = new A();
+		var v = new A().show("");
+	}
+	
+	public static void abstractionDemo()
+	{
+		
+	}
 }
 
 class Item
 {
 	static int counter = 0;
-	
-	
 	
 	public Item()
 	{
@@ -192,5 +197,29 @@ class Employee implements iEmployee
 	}
 
 	
+}
+
+class A{
+	private int x;
+	
+	public A()
+	{
+		
+	}
+	
+	public A(int x)
+	{
+		this.x = x;
+	}
+	
+	public void show()
+	{
+		System.out.println("x is " + x);
+	}
+	
+	public int show(String str)
+	{
+		return 1;
+	}
 }
 
