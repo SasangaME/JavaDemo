@@ -18,7 +18,7 @@ public final class MyClass {
 //		EmployeDemo.demo();
 //		Basics.primeNumbers();
 //		DataStructuresDemo.threedarray();
-//		OopDemo.countObjectDemo();
+		OopDemo.countObjectDemo();
 		
 	}
 
