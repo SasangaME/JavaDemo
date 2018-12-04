@@ -3,6 +3,9 @@ package com.firstproject.demo;
 import demo.*;
 import objectOriented.EmployeDemo;
 import tutorial.*;
+import tutorial.abstraction.AbstractDemo;
+import tutorial.interfaceDemo.MyImplClass;
+import tutorial.stringOperations.*;
 
 public final class MyClass {
 
@@ -18,8 +21,10 @@ public final class MyClass {
 //		EmployeDemo.demo();
 //		Basics.primeNumbers();
 //		DataStructuresDemo.threedarray();
-		OopDemo.countObjectDemo();
-		
+//		OopDemo.countObjectDemo();
+//		MyImplClass.Implementation();
+		StringTut.demo();
+
 	}
 
 }
