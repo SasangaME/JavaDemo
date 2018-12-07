@@ -2,6 +2,7 @@ package tutorial.stringOperations;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 
 public class StringTut {
 
@@ -9,7 +10,7 @@ public class StringTut {
     {
         try
         {
-            bufferReaderDemo();
+            scannerDemo();
         }
         catch (Exception ex)
         {
@@ -48,6 +49,14 @@ public class StringTut {
 
         int n = Integer.parseInt(br.readLine());
         System.out.println(n);
+    }
+
+    public static  void scannerDemo() throws Exception{
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter number : ");
+        int i = sc.nextInt();
+        System.out.println("You have entered " + i);
     }
 
     class Student // inner class
