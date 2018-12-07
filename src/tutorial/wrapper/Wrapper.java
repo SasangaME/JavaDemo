@@ -2,14 +2,13 @@ package tutorial.wrapper;
 
 public class Wrapper {
 
-    public static void wrapperDemo()
-    {
+    public static void wrapperDemo() {
 //        wrapping
         int i = 245;
-        Integer iObj  = i;
+        Integer iObj = i;
 
 //        unwrapping
-        int j =  iObj;
+        int j = iObj;
 
         System.out.println(j + 2);
     }
