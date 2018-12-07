@@ -6,6 +6,7 @@ import tutorial.*;
 import tutorial.abstraction.AbstractDemo;
 import tutorial.interfaceDemo.MyImplClass;
 import tutorial.stringOperations.*;
+import tutorial.wrapper.Wrapper;
 
 public final class MyClass {
 
@@ -23,7 +24,8 @@ public final class MyClass {
 //		DataStructuresDemo.threedarray();
 //		OopDemo.countObjectDemo();
 //		MyImplClass.Implementation();
-		StringTut.demo();
+//		StringTut.demo();
+		Wrapper.wrapperDemo();
 	}
 
 }

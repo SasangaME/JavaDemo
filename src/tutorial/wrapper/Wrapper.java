@@ -8,10 +8,9 @@ public class Wrapper {
         int i = 245;
         Integer iObj  = i;
 
-
 //        unwrapping
-        int j = (int) iObj;
+        int j =  iObj;
 
-
+        System.out.println(j + 2);
     }
 }
