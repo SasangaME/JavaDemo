@@ -24,7 +24,6 @@ public final class MyClass {
 //		OopDemo.countObjectDemo();
 //		MyImplClass.Implementation();
 		StringTut.demo();
-
 	}
 
 }
