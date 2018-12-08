@@ -4,6 +4,7 @@ import demo.*;
 import objectOriented.EmployeDemo;
 import tutorial.*;
 import tutorial.abstraction.AbstractDemo;
+import tutorial.exceptionHandling.ExceptionDemo;
 import tutorial.interfaceDemo.MyImplClass;
 import tutorial.stringOperations.*;
 import tutorial.wrapper.Wrapper;
@@ -27,7 +28,8 @@ public final class MyClass {
 //		StringTut.demo();
 //		Wrapper.wrapperDemo();
 //		StringSplitting.splittingDemo();
-		StringBuilderDemo.stringBufferDemo();
+//		StringBuilderDemo.stringBufferDemo();
+		ExceptionDemo.demo();
 	}
 
 }
