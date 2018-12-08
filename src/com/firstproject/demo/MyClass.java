@@ -5,7 +5,9 @@ import objectOriented.EmployeDemo;
 import tutorial.*;
 import tutorial.abstraction.AbstractDemo;
 import tutorial.exceptionHandling.ExceptionDemo;
+import tutorial.fileHandling.FileHandling;
 import tutorial.interfaceDemo.MyImplClass;
+import tutorial.objectCloning.ObjectCloning;
 import tutorial.stringOperations.*;
 import tutorial.wrapper.Wrapper;
 
@@ -29,7 +31,9 @@ public final class MyClass {
 //		Wrapper.wrapperDemo();
 //		StringSplitting.splittingDemo();
 //		StringBuilderDemo.stringBufferDemo();
-		ExceptionDemo.demo();
+//		ExceptionDemo.demo();
+//		ObjectCloning.demo();
+		FileHandling.fileDemo();
 	}
 
 }
