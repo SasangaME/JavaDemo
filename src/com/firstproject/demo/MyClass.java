@@ -33,7 +33,7 @@ public final class MyClass {
 //		StringBuilderDemo.stringBufferDemo();
 //		ExceptionDemo.demo();
 //		ObjectCloning.demo();
-		FileHandling.fileDemo();
+		FileHandling.fetchProps();
 	}
 
 }
