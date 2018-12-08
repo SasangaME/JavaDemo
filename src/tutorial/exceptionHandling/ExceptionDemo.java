@@ -1,5 +1,8 @@
 package tutorial.exceptionHandling;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
 public class ExceptionDemo {
 
     public static void demo(){
@@ -14,5 +17,18 @@ public class ExceptionDemo {
         catch(Exception e){
             System.out.println("Exception: " + e.getMessage());
         }
+    }
+//    try with resources
+    // try will close all the opening resources
+    public static void tryWithDemo (){
+        try{
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            String str = br.readLine();
+        }
+        catch (Exception e)
+        {
+
+        }
+
     }
 }
