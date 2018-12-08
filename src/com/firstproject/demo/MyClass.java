@@ -26,7 +26,8 @@ public final class MyClass {
 //		MyImplClass.Implementation();
 //		StringTut.demo();
 //		Wrapper.wrapperDemo();
-		StringSplitting.splittingDemo();
+//		StringSplitting.splittingDemo();
+		StringBuilderDemo.stringBufferDemo();
 	}
 
 }
