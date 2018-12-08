@@ -6,7 +6,7 @@ public class FileHandling {
 
     public static void fileDemo(){
         try{
-            File f = new File("demo.txt");
+            File f = new File("files/demo.txt");
             FileOutputStream fos = new FileOutputStream(f);
             DataOutputStream dos = new DataOutputStream(fos);
             String msg = "Sasanga Madhumal Edirisnghe";
@@ -23,4 +23,6 @@ public class FileHandling {
             System.out.println(e.getMessage());
         }
     }
+
+    //property files
 }
