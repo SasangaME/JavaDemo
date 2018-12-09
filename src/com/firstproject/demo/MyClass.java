@@ -6,6 +6,7 @@ import tutorial.*;
 import tutorial.abstraction.AbstractDemo;
 import tutorial.exceptionHandling.ExceptionDemo;
 import tutorial.fileHandling.FileHandling;
+import tutorial.fileHandling.SerializationDemo;
 import tutorial.interfaceDemo.MyImplClass;
 import tutorial.objectCloning.ObjectCloning;
 import tutorial.stringOperations.*;
@@ -33,7 +34,8 @@ public final class MyClass {
 //		StringBuilderDemo.stringBufferDemo();
 //		ExceptionDemo.demo();
 //		ObjectCloning.demo();
-		FileHandling.fetchProps();
+//		FileHandling.fetchProps();
+		SerializationDemo.demo();
 	}
 
 }
