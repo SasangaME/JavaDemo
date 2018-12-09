@@ -1,12 +1,14 @@
 package tutorial.fileHandling;
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class SerializationDemo {
 
     public static void demo(){
         SerializationDemo obj = new SerializationDemo();
-//        obj.serialization();
+        obj.serialization();
         obj.getSerializedObject();
     }
     public  void serialization(){
@@ -38,6 +40,8 @@ public class SerializationDemo {
             System.out.println("Value of object " + e.getMessage());
         }
     }
+
+
 }
 
 class Save implements Serializable {

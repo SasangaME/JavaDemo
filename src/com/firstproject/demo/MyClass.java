@@ -1,16 +1,6 @@
 package com.firstproject.demo;
 
-import demo.*;
-import objectOriented.EmployeDemo;
-import tutorial.*;
-import tutorial.abstraction.AbstractDemo;
-import tutorial.exceptionHandling.ExceptionDemo;
-import tutorial.fileHandling.FileHandling;
-import tutorial.fileHandling.SerializationDemo;
-import tutorial.interfaceDemo.MyImplClass;
-import tutorial.objectCloning.ObjectCloning;
-import tutorial.stringOperations.*;
-import tutorial.wrapper.Wrapper;
+import tutorial.multiThreading.MultiThradingDemo;
 
 public final class MyClass {
 
@@ -35,7 +25,8 @@ public final class MyClass {
 //		ExceptionDemo.demo();
 //		ObjectCloning.demo();
 //		FileHandling.fetchProps();
-		SerializationDemo.demo();
+//		SerializationDemo.demo();
+        MultiThradingDemo.demo();
 	}
 
 }
