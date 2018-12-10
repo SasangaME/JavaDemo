@@ -1,5 +1,6 @@
 package com.firstproject.demo;
 
+import tutorial.collections.CollectionDemo;
 import tutorial.multiThreading.MultiThradingDemo;
 import tutorial.multiThreading.SyncDemo;
 
@@ -27,8 +28,9 @@ public final class MyClass {
 //		ObjectCloning.demo();
 //		FileHandling.fetchProps();
 //		SerializationDemo.demo();
-//        MultiThradingDemo.demo();
-		SyncDemo.demo();
+//      MultiThradingDemo.demo();
+//		SyncDemo.demo();
+		CollectionDemo.demo();
 	}
 
 }
