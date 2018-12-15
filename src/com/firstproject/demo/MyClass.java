@@ -1,13 +1,17 @@
 package com.firstproject.demo;
 
+import tutorial.annotations.AnnotationDemo;
+import tutorial.annotations.CustomAnnotation;
 import tutorial.collections.CollectionDemo;
+import tutorial.enums.EnumDemo;
+import tutorial.innerClass.InnerClassDemo;
 import tutorial.multiThreading.MultiThradingDemo;
 import tutorial.multiThreading.SyncDemo;
 
 public final class MyClass {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		// Numbers demo
 //		System.out.println(Numbers.getPower(2, 10));
 //		BigInteger
@@ -30,7 +34,11 @@ public final class MyClass {
 //		SerializationDemo.demo();
 //      MultiThradingDemo.demo();
 //		SyncDemo.demo();
-		CollectionDemo.demo();
+//		CollectionDemo.demo();
+//		InnerClassDemo.demo();
+//		EnumDemo.demo();
+//		AnnotationDemo.demo();
+		CustomAnnotation.demo();
 	}
 
 }
