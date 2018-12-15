@@ -1,6 +1,9 @@
 package tutorial.collections;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.Period;
+import java.time.temporal.ChronoUnit;
 import java.util.*;
 
 public class CollectionDemo
@@ -16,7 +19,8 @@ public class CollectionDemo
 //        comparetorDemo();
 //        setDemo();
 //          mapDemo();
-        timeDemo();
+//        timeDemo();
+        dateTimeDemo();
     }
 
     public static void arrayListDemo()
@@ -149,8 +153,12 @@ public class CollectionDemo
 
     public static void dateTimeDemo()
     {
+      LocalDateTime fromDt = LocalDateTime.of(1990, 4, 14, 10, 02);
+      LocalDateTime toDt = LocalDateTime.now();
 
+      long days = ChronoUnit.DAYS.between(fromDt, toDt);
 
+      System.out.println(days);
 
     }
 
