@@ -1,5 +1,6 @@
 package tutorial.collections;
 
+import java.time.LocalDate;
 import java.util.*;
 
 public class CollectionDemo
@@ -13,8 +14,9 @@ public class CollectionDemo
 //            vectorDemo();
 //        comparatorDemo();
 //        comparetorDemo();
-        setDemo();
-
+//        setDemo();
+//          mapDemo();
+        timeDemo();
     }
 
     public static void arrayListDemo()
@@ -128,6 +130,42 @@ public class CollectionDemo
             System.out.println(i);
     }
 
+    public static void mapDemo()
+    {
+        Map<String, Integer> map = new HashMap<>();
+        map.put("intern", 12000);
+        map.put("sfinn", 30000);
+        map.put("mut1", 15000);
+        map.put("mut2", 30000);
+        map.put("mut3", 40000);
+        map.put("inv1", 75000);
+        map.put("inv2", 90000);
+
+        for(Map.Entry<String, Integer> item : map.entrySet())
+        {
+            System.out.println(item.getKey() + " : " + item.getValue());
+        }
+    }
+
+    public static void dateTimeDemo()
+    {
+
+
+
+    }
+
+    public static void timeDemo()
+    {
+        long start = System.currentTimeMillis();
+        int i = 0;
+        for(int j = 1; j <= 1000000; j++)
+        {
+            i += j;
+        }
+        long end  = System.currentTimeMillis();
+
+        System.out.println(end - start);
+    }
 }
 
 class Container<T>
