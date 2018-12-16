@@ -14,8 +14,8 @@ public class JdbcDemo {
 //           getSingleData();
             JdbcDemo obj = new JdbcDemo();
             obj.createRecord();
-            List<Student> lst = obj.getAllData();
-            for(Student s : lst)
+            List<StudentLocal> lst = obj.getAllData();
+            for(StudentLocal s : lst)
             {
                 System.out.println(s.getId() + " : " + s.getName());
             }
@@ -45,7 +45,7 @@ public class JdbcDemo {
         con.close();
     }
 
-    public List<Student> getAllData() throws Exception
+    public List<StudentLocal> getAllData() throws Exception
     {
         String url = "jdbc:mysql://localhost:3306/jdbcdemodb";
         String username = "root";
@@ -56,12 +56,12 @@ public class JdbcDemo {
         String query = "select * from student";
         ResultSet rs =  st.executeQuery(query);
 
-        List<Student> lst = new ArrayList<>();
-        Student obj;
+        List<StudentLocal> lst = new ArrayList<>();
+        StudentLocal obj;
 
         while (rs.next())
         {
-            obj = new Student();
+            obj = new StudentLocal();
             obj.setId(rs.getInt("Id"));
             obj.setName(rs.getString("Name"));
             lst.add(obj);
@@ -76,7 +76,6 @@ public class JdbcDemo {
         System.out.print("Enter name: ");
         String name = sc.nextLine();
 
-
         String url = "jdbc:mysql://localhost:3306/jdbcdemodb";
         String username = "root";
         String password = "sasanga";
@@ -90,7 +89,6 @@ public class JdbcDemo {
         int id = rs1.getInt("id") + 1;
         st.close();
 
-
         String qry2 = "INSERT INTO student(Id, Name) VALUES(?, ?)";
         PreparedStatement st2 = con.prepareStatement(qry2);
         st2.setInt(1, id);
@@ -100,9 +98,10 @@ public class JdbcDemo {
         st2.close();
         con.close();
     }
+
 }
 
-class  Student
+class  StudentLocal
 {
     int id;
     String name;

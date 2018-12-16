@@ -5,6 +5,7 @@ import tutorial.annotations.CustomAnnotation;
 import tutorial.collections.CollectionDemo;
 import tutorial.enums.EnumDemo;
 import tutorial.innerClass.InnerClassDemo;
+import tutorial.jdbc.JdbcDaoDemo;
 import tutorial.jdbc.JdbcDemo;
 import tutorial.multiThreading.MultiThradingDemo;
 import tutorial.multiThreading.SyncDemo;
@@ -40,7 +41,8 @@ public final class MyClass {
 //		EnumDemo.demo();
 //		AnnotationDemo.demo();
 //		CustomAnnotation.demo();
-		JdbcDemo.demo();
+//		JdbcDemo.demo();
+        JdbcDaoDemo.demo();
 	}
 
 }
