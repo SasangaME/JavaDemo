@@ -9,6 +9,7 @@ import tutorial.jdbc.JdbcDaoDemo;
 import tutorial.jdbc.JdbcDemo;
 import tutorial.multiThreading.MultiThradingDemo;
 import tutorial.multiThreading.SyncDemo;
+import tutorial.streamApi.StreamApiDemo;
 
 public final class MyClass {
 
@@ -42,7 +43,8 @@ public final class MyClass {
 //		AnnotationDemo.demo();
 //		CustomAnnotation.demo();
 //		JdbcDemo.demo();
-        JdbcDaoDemo.demo();
+//        JdbcDaoDemo.demo();
+		StreamApiDemo.demo();
 	}
 
 }
