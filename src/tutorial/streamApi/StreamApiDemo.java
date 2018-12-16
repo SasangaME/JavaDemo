@@ -10,7 +10,7 @@ public class StreamApiDemo {
     {
         try
         {
-            methodReference();
+           streamApiDemo();
         }
         catch (Exception e)
         {
@@ -36,5 +36,9 @@ public class StreamApiDemo {
        System.out.println(i*2);
     }
 
-
+    public static void streamApiDemo()
+    {
+        List<Integer> lst = Arrays.asList(1,2,3,4,5,6);
+        lst.stream().forEach(i -> System.out.println(i*3456));
+    }
 }

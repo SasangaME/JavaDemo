@@ -7,9 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c576624a-c27b-48eb-a588-317277f04379" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tutorial/streamApi/StreamApiDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/firstproject/demo/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/firstproject/demo/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FirstProject/com/firstproject/demo/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstProject/com/firstproject/demo/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tutorial/streamApi/StreamApiDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorial/streamApi/StreamApiDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tutorial/streamApi/StreamApiDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+            <state relative-caret-position="696">
+              <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#653#654#0" expanded="true" />
@@ -152,7 +152,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544975986961" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544979656634" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.13.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -382,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544957648404</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="method reference">
+      <created>1544976008895</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1544976008896</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -437,7 +444,8 @@
     <MESSAGE value="Annotations" />
     <MESSAGE value="jdbc demo" />
     <MESSAGE value="jdbc insert" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdbc insert" />
+    <MESSAGE value="method reference" />
+    <option name="LAST_COMMIT_MESSAGE" value="method reference" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/demo/General.java">
@@ -853,8 +861,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tutorial/streamApi/StreamApiDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        <state relative-caret-position="696">
+          <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#653#654#0" expanded="true" />
