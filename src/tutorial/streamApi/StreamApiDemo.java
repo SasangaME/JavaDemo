@@ -10,7 +10,7 @@ public class StreamApiDemo {
     {
         try
         {
-           streamApiDemo();
+          mapDemo();
         }
         catch (Exception e)
         {
@@ -40,5 +40,17 @@ public class StreamApiDemo {
     {
         List<Integer> lst = Arrays.asList(1,2,3,4,5,6);
         lst.stream().forEach(i -> System.out.println(i*3456));
+    }
+
+    public static void mapDemo()
+    {
+        List<Integer> lst = Arrays.asList(1,2,3,4,5,6);
+        System.out.println(lst.stream().map(i -> i*2).reduce(0, (c,e) -> c+e));
+    }
+
+    public static void sumDemo()
+    {
+        List<Integer> lst = Arrays.asList(1,2,3,4,5,6);
+        System.out.println(lst.stream().map(i -> i*2).reduce(0, (c, e) -> Integer.sum(c,e)));
     }
 }
