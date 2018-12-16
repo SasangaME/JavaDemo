@@ -7,14 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c576624a-c27b-48eb-a588-317277f04379" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tutorial/jdbc/JdbcDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FirstProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProject/com/firstproject/demo/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstProject/com/firstproject/demo/MyClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProject/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstProject/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/firstproject/demo/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/firstproject/demo/MyClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tutorial/jdbc/JdbcDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorial/jdbc/JdbcDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tutorial/jdbc/JdbcDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+            <state relative-caret-position="202">
+              <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#898#899#0" expanded="true" />
@@ -145,6 +139,27 @@
               <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="CollectionDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -154,7 +169,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544934574533" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544943790542" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.13.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -363,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544896218098</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="jdbc demo">
+      <created>1544934719776</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1544934719776</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -379,7 +401,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -416,7 +438,8 @@
     <MESSAGE value="map" />
     <MESSAGE value="datetime example" />
     <MESSAGE value="Annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Annotations" />
+    <MESSAGE value="jdbc demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdbc demo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/demo/General.java">
@@ -656,26 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tutorial/collections/CollectionDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="155" column="6" selection-start-line="155" selection-start-column="6" selection-end-line="161" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#arrayListDemo#0;class#CollectionDemo#0" />
-            <element signature="method#listDemo#0;class#CollectionDemo#0" />
-            <element signature="method#vectorDemo#0;class#CollectionDemo#0" />
-            <element signature="method#comparatorDemo#0;class#CollectionDemo#0" />
-            <element signature="method#comparetorDemo#0;class#CollectionDemo#0" />
-            <element signature="method#setDemo#0;class#CollectionDemo#0" />
-            <element signature="method#mapDemo#0;class#CollectionDemo#0" />
-            <element signature="method#timeDemo#0;class#CollectionDemo#0" />
-            <element signature="class#Container#0" />
-            <element signature="class#ComImpl#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tutorial/innerClass/InnerClassDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -752,10 +755,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/tutorial/collections/CollectionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="155" column="22" selection-start-line="155" selection-start-column="22" selection-end-line="155" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#arrayListDemo#0;class#CollectionDemo#0" />
+            <element signature="method#listDemo#0;class#CollectionDemo#0" />
+            <element signature="method#vectorDemo#0;class#CollectionDemo#0" />
+            <element signature="method#comparatorDemo#0;class#CollectionDemo#0" />
+            <element signature="method#comparetorDemo#0;class#CollectionDemo#0" />
+            <element signature="method#setDemo#0;class#CollectionDemo#0" />
+            <element signature="method#mapDemo#0;class#CollectionDemo#0" />
+            <element signature="method#timeDemo#0;class#CollectionDemo#0" />
+            <element signature="class#Container#0" />
+            <element signature="class#ComImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tutorial/jdbc/JdbcDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+        <state relative-caret-position="202">
+          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
