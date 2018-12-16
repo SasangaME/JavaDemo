@@ -67,7 +67,7 @@ public class StreamApiDemo {
     public static void findFirstDemo()
     {
         List<Integer> lst = Arrays.asList(15, 20 , 25, 27, 30, 32);
-        int first = lst.stream().filter(i -> i > 20).findFirst().orElse(-1);
+        int first = lst.stream().filter(i -> i > 20).map(i -> i * 200).findFirst().orElse(-1);
         System.out.println(first);
     }
 }

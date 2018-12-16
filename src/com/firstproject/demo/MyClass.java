@@ -3,6 +3,7 @@ package com.firstproject.demo;
 import tutorial.annotations.AnnotationDemo;
 import tutorial.annotations.CustomAnnotation;
 import tutorial.collections.CollectionDemo;
+import tutorial.dateTime.DateTimeDemo;
 import tutorial.enums.EnumDemo;
 import tutorial.innerClass.InnerClassDemo;
 import tutorial.jdbc.JdbcDaoDemo;
@@ -44,7 +45,8 @@ public final class MyClass {
 //		CustomAnnotation.demo();
 //		JdbcDemo.demo();
 //        JdbcDaoDemo.demo();
-		StreamApiDemo.demo();
+//		StreamApiDemo.demo();
+		DateTimeDemo.demo();
 	}
 
 }
