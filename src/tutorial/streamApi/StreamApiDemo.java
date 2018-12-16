@@ -11,7 +11,7 @@ public class StreamApiDemo {
     {
         try
         {
-          reducePredicateDemo();
+            findFirstDemo();
         }
         catch (Exception e)
         {
@@ -60,7 +60,14 @@ public class StreamApiDemo {
         List<Integer> lst = Arrays.asList(15, 20 , 25, 27, 30, 32);
         List<Integer> lst2 =  lst.stream().filter(i -> i % 5 == 0).collect(Collectors.toList());
         lst2.forEach(i -> System.out.println(i));
-        int sum = lst2.stream().reduce(0, (c, e) -> Integer.sum(c, e));
+        int sum = lst2.stream().reduce(0, (c, e) -> c+e);
         System.out.println("Sum of new list = " + sum);
+    }
+
+    public static void findFirstDemo()
+    {
+        List<Integer> lst = Arrays.asList(15, 20 , 25, 27, 30, 32);
+        int first = lst.stream().filter(i -> i > 20).findFirst().orElse(-1);
+        System.out.println(first);
     }
 }
